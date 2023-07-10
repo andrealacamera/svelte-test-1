@@ -24,10 +24,7 @@ Install and setup TailwindCSS following the [documentation](https://tailwindcss.
 ### Project structure
 See [here](https://kit.svelte.dev/docs/project-structure) for a complete structure. I used a subset of the structure. 
 
-Components are in the `/lib` folder, any component can be imported by: 
-```js
-import { MyComponent } from '$lib'
-```
+Components are in the `/src/lib` folder (Accessed with `$lib`).
 
 ## Useful Notes
 
@@ -42,10 +39,12 @@ import { MyComponent } from '$lib'
 - WRT the video, all the `<style>` elements have been replaced with Tailwind classes. I prefer this approach!
 
 - Changed default font family with [this one](https://fonts.google.com/specimen/Exo+2).
+
+## TBD:
+2-way binding of rating and reset rating after submission 
 ---
 ## Timestamp
-Created: 2023-07-06
-Modified: 2023-07-10
+Created: 2023-07-06 || Modified: 2023-07-10
 
 ## References:
 - [TraversyMedia video](https://www.youtube.com/watch?v=3TVy6GdtNuQ)
