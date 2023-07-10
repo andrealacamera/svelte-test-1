@@ -41,6 +41,7 @@ Components are in the `/src/lib` folder (Accessed with `$lib`).
 
 - Changed default font family with [this one](https://fonts.google.com/specimen/Exo+2).
 
+- SSG version -> See [here](https://kit.svelte.dev/docs/adapter-static)
  
 ---
 ## Timestamp
