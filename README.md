@@ -32,6 +32,7 @@ Components are in the `/src/lib` folder (Accessed with `$lib`).
 
 - In the `RatingSelect.svelte` component, the verbose list of items has been replaced with a dynamic list created within a `#each` block. 
 
+- The `RatingSelect.svelte` dispatch function has been replaced with a two-way binding (control is now in the `FeedbackForm.svelte` component). After submission the rate is reset.
 ## Other Notes
 
 - Removed dependencies from `uuid` package, replaced with a simple search of the max id. See [here](https://stackoverflow.com/questions/4020796/finding-the-max-value-of-an-attribute-in-an-array-of-objects) for more details.
@@ -40,8 +41,7 @@ Components are in the `/src/lib` folder (Accessed with `$lib`).
 
 - Changed default font family with [this one](https://fonts.google.com/specimen/Exo+2).
 
-## TBD:
-2-way binding of rating and reset rating after submission 
+ 
 ---
 ## Timestamp
 Created: 2023-07-06 || Modified: 2023-07-10

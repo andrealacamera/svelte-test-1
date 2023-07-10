@@ -1,14 +1,14 @@
 <script>
-  import {createEventDispatcher} from 'svelte'
-  const dispatch = createEventDispatcher()
+  // import {createEventDispatcher} from 'svelte'
+  // const dispatch = createEventDispatcher()
 
   let selections = [1,2,3,4,5,6,7,8,9,10]
-  let selected = 10
+  export let selected = null // bind the value
 
   const handleChange = (e) => {
     selected = e.currentTarget.value
-    console.log(selected)
-    dispatch('rating-select', selected)
+    // console.log(selected)
+    // dispatch('rating-select', selected)
   }
 </script>
 
