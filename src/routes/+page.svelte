@@ -1,2 +1,11 @@
-<h1 class="text-4xl text-blue-500">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import FeedbackForm from '$lib/FeedbackForm.svelte'
+	import FeedbackList from '$lib/FeedbackList.svelte'
+	import FeedbackStats from '$lib/FeedbackStats.svelte'
+</script>
+
+<main class="max-w-[1024px] m-auto bg-gray-200 py-8 px-4">
+	<FeedbackForm />
+	<FeedbackStats />
+	<FeedbackList />
+</main>
